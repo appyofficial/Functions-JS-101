@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+html {
+    font-family: 'Open Sans', sans-serif;
+   
+}
+
+body {
+    text-align: center;
+}
+
+/*Class for Background according to time*/
+.goodMorning {
+    background-image: linear-gradient(to top, #88e2f6, #71e3d6, #88dea5, #b7d272, #ebbd54);
+    background-size: cover; 
+    background-repeat: no-repeat;
+}
+
+.goodAfternoon {
+    background-image: linear-gradient(to right top, #f7792a, #e26924, #cc5a1f, #b74b19, #a23d13);
+    background-size: cover; 
+    background-repeat: no-repeat;
+}
+
+.goodEvening {
+    background: linear-gradient(to right top, #ebbd54, #ff8c57, #ff5a7d, #db44b2, #7057de);
+    background-size: cover; 
+    background-repeat: no-repeat;
+}
+
+.goodNight {
+    background-image: linear-gradient(to right top, #7057de, #5b42bd, #462e9e, #311a7f, #1b0662);
+    background-size: cover; 
+    background-repeat: no-repeat;
+}
+
+/* Greeting Messages*/
+#greeting {
+    text-align: center;
+    font-size: 62px;
+    color: white;
+    text-shadow: 2px 2px;
+}
+
+#warning {
+    font-size: 25px;
+    color: white;
+    max-width: 800px;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+
+
+/*Clock*/
+.clock {
+    background: whitesmoke;
+    width: 30rem;
+    height: 30rem;
+    border: 20px solid white;
+    border-radius: 50%;
+    margin: 50px auto;
+    position: relative;
+    padding: 2rem;
+    box-shadow:
+        0 0 0 4px rgba(0, 0, 0, 0.1),
+        inset 0 0 0 3px #EFEFEF,
+        inset 0 0 10px black,
+        0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/*Clock face*/
+.clock-face {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform: translateY(-3px);
+}
+
+/*Clock hands, excluding hour hand*/
+.hand {
+    width: 50%;
+    height: 6px;
+    background: black;
+    position: absolute;
+    top: 50%;
+    transform-origin: 100%;
+    transform: rotate(90deg);
+    transition: all 0.05s;
+    transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+}
+
+/*Making hour hand bit smaller, giving it width 30% and 
+right: 50%*/
+.hour-hand {
+    width: 30%;
+    height: 6px;
+    background: black;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform-origin: 100%;
+    transform: rotate(90deg);
+    transition: all 0.05s;
+    transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+}
+
+.btn {
+    text-decoration: none;
+    margin: 10px;
+    padding: 14px 18px;
+    color: black;
+    background: whitesmoke;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+border-top-right-radius: 10px;
+border-top-left-radius: 10px; 
+}
+
+
+
+
+/*Making our clock responsive*/
+@media  (max-width: 600px) {
+   .clock {
+    width: 20rem;
+    height: 20rem;
+   } 
+
+   #greeting {
+        font-size: 40px;
+   }
+
+   #warning {
+        font-size: 18px;
+   }
+}
+
+@media  (max-width: 443px) {
+    .clock {
+     width: 15rem;
+     height: 15rem;
+    } 
+     
+ }
+
+ @media  (max-width: 357px) {
+    .clock {
+     width: 10rem;
+     height: 10rem;
+    } 
+     
+ }
+
+ @media  (max-width: 300px) {
+    .clock {
+     width: 5rem;
+     height: 5rem;
+    } 
+     
+ }
+
+ /*If somone is using a device with less than 300px screen width... man........ kill me*/
