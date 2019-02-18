@@ -4,6 +4,17 @@ body {
     background-repeat: no-repeat;
     width: 100%;
     height: 100vh;
+    margin: 0;
+}
+
+.card {
+    margin: 100px auto;
+    max-width: 500px;
+    height: auto;
+    padding: 15px;
+    background: whitesmoke;
+    box-shadow: 10px 10px #ce191c;
+    font-size: 20px;
 }
 
 .button {
@@ -12,6 +23,9 @@ body {
     padding: 18px 12px;
     color: black;
     font-weight: bold;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
 }
 
 .modal {
@@ -34,6 +48,7 @@ body {
     box-shadow: 0 0 5px 8px rgba(0, 0, 0, 0.2);
     animation-name: boxeffect;
     animation-duration: 1000ms;
+    font-size: 20px;
 }
 
 @keyframes boxeffect {
