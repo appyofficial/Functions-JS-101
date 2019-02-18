@@ -11,6 +11,10 @@ The vanilla clock is a clock which is made by pure javascript, html and css. It 
 The read list is to save the books you want to read later. It takes book's name, author name and book Id number. Javascript, html and bootstrap has been used.
 <a href="https://www.appysharma.com/wp-content/themes/appysharma/projects/booklist_app/index.html">DEMO</a>
 
+## The Popup Modal
+The popup box modal, a really simple and easy to make with the help of Javascript DOM, HTML 5, CSS. Good for someone learning dom on how to select elements by their ID, Class etc.
+
+
 ## How can you help?
 You can share the repo with anyone who wants to sharpen their javascrip skills.
 You can also build, break the code and keep developing it and make it better.
