@@ -1,0 +1,61 @@
+body {
+    background-image: linear-gradient(to right top, #ce191c, #dd2442, #e63764, #eb4d85, #ea63a4);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+
+.button {
+    margin: 0 auto;
+    background-color: white;
+    padding: 18px 12px;
+    color: black;
+    font-weight: bold;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.content {
+    background: #fff;
+    margin: 20% auto;
+    padding: 20px;
+    width: 70%;
+    box-shadow: 0 0 5px 8px rgba(0, 0, 0, 0.2);
+    animation-name: boxeffect;
+    animation-duration: 1000ms;
+}
+
+@keyframes boxeffect {
+    from {
+        opacity: 0;
+    }
+
+    tp {
+        opacity: 1;
+    }
+
+}
+
+.box-header .closeBtn {
+    display: block;
+    float: right;
+    font-size: 20px;
+    color: red;
+}
+
+.closeBtn:hover,
+.closeBtn:focus {
+    font-size: 25px;
+    cursor: pointer;
+}
