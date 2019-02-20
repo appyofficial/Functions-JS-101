@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+}
+
+.navbar {
+    width: 100%;
+    padding: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.navbar h1 {
+    font-size: 24px;
+}
+
+.navbar a {
+    font-weight: bold;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.container {
+    margin: 100px auto;
+}
+
+.location {
+    display: flex;
+}
+
+.location .location-timezone {
+    width: 250px;
+    height: 250px;
+    padding: 18px;
+    margin: 10px;
+    background: #ff6b6b;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.location .icon {
+    width: 250px;
+    height: 250px;
+    padding: 18px;
+    margin: 10px;
+    background: #4ebaba;
+    text-align: center;
+    align-items: center;
+}
+
+.tempreture {
+    display: flex;
+    color: white;
+    font-size: 35px;
+}
+
+.tempreture .degreeSection {
+    width: 250px;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    padding: 18px;
+    margin: 10px;
+    background: #ffae6b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tempreture .tempdiscription {
+    width: 250px;
+    height: 250px;
+    padding: 18px;
+    margin: 10px;
+    background: #5cdd5c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 35px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    padding: 20px;
+}
