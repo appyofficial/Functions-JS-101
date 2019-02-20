@@ -15,6 +15,10 @@ The read list is to save the books you want to read later. It takes book's name,
 The popup box modal, a really simple and easy to make with the help of Javascript DOM, HTML 5, CSS. Good for someone learning dom on how to select elements by their ID, Class etc.
 
 
+## The Weather app
+Weather app which ask user for their location and with the help of DarkSky api, it delivers weather status like tempreture, condition of the current status. Design was not a priority, but i will update css file to make it look nice later.
+
+
 ## How can you help?
 You can share the repo with anyone who wants to sharpen their javascrip skills.
 You can also build, break the code and keep developing it and make it better.
