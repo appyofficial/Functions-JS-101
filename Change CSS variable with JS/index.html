@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Change CSS variable with JS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- This div we do our experiment.-->
+    <div id="headcontainer">
+        <h1>Hello World<h1>
+    </div>
+    <!--Creating controls to set padding, blur and background color-->
+    <div class="controls">
+        <!--Padding-->
+        <label for="spacing"></label>
+        <input name="spacing" type="range" min="10" max="200" value="10" data-sizing="px">
+<!--blur-->
+        <label for="blur"></label>
+        <input name="blur" type="range" min="0" max="25" value="10" data-sizing="px">
+<!--background-->
+        <label for="base"></label>
+        <input name="base" type="color" value="#f9f9f9">
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,15 @@
+/*Creating variables*/
+:root {
+    --base: #f9f9f9;
+    --spacing: 10px;
+    --blur: 10px;
+}
+
+/*Setting variable to our container*/
+#headcontainer {
+    background: var(--base);
+    padding: var(--spacing);
+    filter: blur(var(--blur));
+    width: 500px;
+    height: 500px;
+}
