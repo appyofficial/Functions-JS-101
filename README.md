@@ -1,5 +1,5 @@
 # Javascript Projects
-Collection of pure vanilla javascript projects, specially for beginners. I really believe the best way to learn to code it to build, break and repeat. I found there are so many tutorials but there are very few projects. Therefore, I decided to make this repo as collections of vanilla js projects.
+Collection of pure vanilla javascript projects. I really believe the best way to learn to code it to build, break and repeat. I found there are so many tutorials but there are very few projects. Therefore, I decided to make this repo as collections of vanilla js projects for my own practice and also if there's someone want to use it or improve it. they are welcome.
 
 # What projects are there?
 
